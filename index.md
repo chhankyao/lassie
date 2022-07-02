@@ -51,7 +51,7 @@ Experiments on Pascal Part and self-collected in-the-wild animal datasets demons
 ## Video
 
 <center>
-<iframe width="900" height="500" src="https://youtube.com/embed/erNQANNwK6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MhQaHzC4Sn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
 
