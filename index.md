@@ -48,17 +48,17 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 
 <center>
 <table cellspacing="0" cellpadding="0">
-    <tr>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/proc_5.png"  alt="1" width=100px height=100px ></td>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/part_5.gif"  alt="1" width=100px height=100px ></td>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/text_5.gif"  alt="1" width=100px height=100px ></td>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif"  alt="1" width=100px height=100px ></td>	  
+    <tr border:none>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/proc_5.png"  alt="1" width=100px height=100px ></td>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/part_5.gif"  alt="1" width=100px height=100px ></td>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/text_5.gif"  alt="1" width=100px height=100px ></td>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif"  alt="1" width=100px height=100px ></td>	  
    </tr> 
-   <tr>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/proc_5.png"  alt="1" width=100px height=100px ></td>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/part_5.gif"  alt="1" width=100px height=100px ></td>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/text_5.gif"  alt="1" width=100px height=100px ></td>
-    	<td> <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif"  alt="1" width=100px height=100px ></td>
+   <tr border:none>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/proc_5.png"  alt="1" width=100px height=100px ></td>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/part_5.gif"  alt="1" width=100px height=100px ></td>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/text_5.gif"  alt="1" width=100px height=100px ></td>
+    	<td border:none> <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif"  alt="1" width=100px height=100px ></td>
     </tr>
 </table>
 
