@@ -17,7 +17,7 @@
 
 Creating high-quality articulated 3D models of animals is challenging either via manual creation or using 3D scanning tools. 
 Therefore, techniques to reconstruct articulated 3D objects from 2D images are crucial and highly useful. 
-In this work, we propose a practical problem setting of estimating 3D shape and pose of animals given only a few ($\approx$30) in-the-wild images of a particular animal species (say, horse). 
+In this work, we propose a practical problem setting of estimating 3D shape and pose of animals given only a few (10-30) in-the-wild images of a particular animal species (say, horse). 
 Contrary to existing works that rely on pre-defined template shapes, we do not assume any form of 2D or 3D ground-truth annotations, nor do we assume any multi-view or temporal information. 
 Our input image ensemble can have animal instances with varying poses, backgrounds, illuminations and also textures. 
 Our key insight is that 3D parts have much more simplistic shapes compared to the overall animal and that the part shapes are robust w.r.t. animal pose articulations. 
@@ -29,7 +29,7 @@ Experiments on Pascal Part and self-collected in-the-wild animal datasets demons
 <center>
 <figure>
     <div id="projectid">
-    <img src="https://chhankyao.github.io/papers/cover.png" width="900px" />
+    <img src="https://chhankyao.github.io/lassie/figures/cover.png" width="900px" />
     </div>
     <br />
     <figcaption>
