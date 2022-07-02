@@ -9,7 +9,9 @@
 <a href="http://people.csail.mit.edu/yzli/" style="color: ##6495ED"> Yuanzhen Li </a>
 	&emsp;
 <a href="http://people.csail.mit.edu/mrub/" style="color: ##6495ED"> Michael Rubinstein </a>
-	&emsp;
+</p>
+
+<p style="text-align: center;">
 <a href="http://faculty.ucmerced.edu/mhyang/" style="color: ##6495ED"> Ming-Hsuan Yang </a>
 	&emsp;
 <a href="http://varunjampani.github.io" style="color: ##6495ED"> Varun Jampani </a>
@@ -55,7 +57,7 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 ## Video
 
 <center>
-<iframe width="900" height="600" src="https://www.youtube.com/embed/MhQaHzC4Sn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/MhQaHzC4Sn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
 
