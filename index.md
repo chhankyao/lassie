@@ -45,6 +45,28 @@ Experiments on Pascal-Part and self-collected in-the-wild animal datasets demons
 Given sparse images of an articulated class and a generic 3D skeleton, we optimize the shared skeleton and neural parts as well as the instance-specific camera viewpoint and bone transformations. Our method is able to produce high-quality outputs without any pre-defined shape model or instance-specific annotations. The part-based representation also allows applications like animation and texture or pose transfer.
 
 
+
+<center>
+<figure>
+    <div id="projectid">
+    <img src="https://chhankyao.github.io/lassie/figures/proc_5.png" width="80px" />
+    </div>
+    <div id="projectid">
+    <img src="https://chhankyao.github.io/lassie/figures/part_5.gif" width="80px" />
+    </div>
+    <div id="projectid">
+    <img src="https://chhankyao.github.io/lassie/figures/text_5.gif" width="80px" />
+    </div>
+    <div id="projectid">
+    <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif" width="80px" />
+    </div>
+    <br />
+    <figcaption>
+    </figcaption>
+</figure>
+</center>
+
+
 ## Paper & Code
 
 - Paper [PDF]
