@@ -1,11 +1,11 @@
-# Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery
+# Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery (LASSIE)
 
 
 <p style="text-align: center;">
 <a href="https://www.chhankyao.com/" style="color: ##6495ED"> Chun-Han Yao </a>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&emsp;
 <a href="https://hfslyc.github.io" style="color: ##6495ED"> Wei-Chih Hung </a>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&emsp;
 <a href="http://people.csail.mit.edu/yzli/" style="color: ##6495ED"> Yuanzhen Li </a>
 	&emsp;
 <a href="http://people.csail.mit.edu/mrub/" style="color: ##6495ED"> Michael Rubinstein </a>
@@ -36,10 +36,11 @@ Experiments on Pascal-Part and self-collected in-the-wild animal datasets demons
     </div>
     <br />
     <figcaption>
-	  Given sparse images of an articulated class and a generic 3D skeleton, we optimize the shared skeleton and neural parts as well as the instance-specific camera viewpoint and bone transformations. Our method is able to produce high-quality outputs without any pre-defined shape model or instance-specific annotations. The part-based representation also allows applications like animation and texture or pose transfer.
     </figcaption>
 </figure>
 </center>
+
+Given sparse images of an articulated class and a generic 3D skeleton, we optimize the shared skeleton and neural parts as well as the instance-specific camera viewpoint and bone transformations. Our method is able to produce high-quality outputs without any pre-defined shape model or instance-specific annotations. The part-based representation also allows applications like animation and texture or pose transfer.
 
 
 ## Paper & Code
@@ -54,7 +55,7 @@ Experiments on Pascal-Part and self-collected in-the-wild animal datasets demons
 ## Video
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MhQaHzC4Sn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/MhQaHzC4Sn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
 
