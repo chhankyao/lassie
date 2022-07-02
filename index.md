@@ -10,7 +10,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://faculty.ucmerced.edu/mhyang/" style="color: ##6495ED"> Ming-Hsuan Yang </a>
 </p>
-<p>&nbsp;</p>
+
+<p style="text-align: center;">
+<a href="https://www.chhankyao.com/" style="color: ##6495ED"> Michael Rubinstein </a>
+&emsp;
+<a href="https://hfslyc.github.io" style="color: ##6495ED"> Yuanzhen Li </a>
+</p>
 
 
 ## Abstract
