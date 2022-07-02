@@ -47,7 +47,7 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 
 
 <center>
-<table>
+<table cellspacing="0" cellpadding="0">
     <tr>
     	<td> <img src="https://chhankyao.github.io/lassie/figures/proc_5.png"  alt="1" width=100px height=100px ></td>
     	<td> <img src="https://chhankyao.github.io/lassie/figures/part_5.gif"  alt="1" width=100px height=100px ></td>
@@ -61,18 +61,6 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
     	<td> <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif"  alt="1" width=100px height=100px ></td>
     </tr>
 </table>
-	
-<figure>
-    <div id="projectid">
-    <img src="https://chhankyao.github.io/lassie/figures/proc_5.png" width="80px" />
-    </div>
-    <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif" width="80px" />
-    </div>
-    <br />
-    <figcaption>
-    </figcaption>
-</figure>
-</center>
 
 
 ## Paper & Code
