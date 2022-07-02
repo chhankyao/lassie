@@ -33,7 +33,7 @@ Experiments on Pascal Part and self-collected in-the-wild animal datasets demons
     </div>
     <br />
     <figcaption>
-	  Learning ...
+	  Given 10-30 images of an articulated class and a generic 3D skeleton, we optimize the shared skeleton and neural parts as well as the instance-specific camera viewpoint and bone transformations. Our method is able to produce high-quality outputs without any pre-defined shape model or instance-specific annotations. The part-based representation also allows applications like texture and pose transfer, animation, etc.
     </figcaption>
 </figure>
 </center>
@@ -41,11 +41,11 @@ Experiments on Pascal Part and self-collected in-the-wild animal datasets demons
 
 ## Paper & Code
 
-- Paper: [PDF]
+- Paper [PDF]
 
-- Supplementary: [PDF]
+- Supplementary [PDF]
 
-- PyTorch Code: [Github]
+- PyTorch Code [Github]
 
 
 ## Video
