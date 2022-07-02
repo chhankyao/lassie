@@ -56,19 +56,19 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
     <img src="https://chhankyao.github.io/lassie/figures/animate_5.gif" width="20%" />
 </p>
 <p float="center">
-    <img src="https://chhankyao.github.io/lassie/figures/proc_21.png" width="20%" />
-    <img src="https://chhankyao.github.io/lassie/figures/part_21.gif" width="20%" /> 
-    <img src="https://chhankyao.github.io/lassie/figures/text_21.gif" width="20%" />
-    <img src="https://chhankyao.github.io/lassie/figures/animate_21.gif" width="20%" />
-</p>
-<p float="center">
     <img src="https://chhankyao.github.io/lassie/figures/proc_22.png" width="20%" />
     <img src="https://chhankyao.github.io/lassie/figures/giraffe_part_22.gif" width="20%" /> 
     <img src="https://chhankyao.github.io/lassie/figures/giraffe_text_22.gif" width="20%" />
     <img src="https://chhankyao.github.io/lassie/figures/giraffe_animate_22.gif" width="20%" />
 </p>
+<p float="center">
+    <img src="https://chhankyao.github.io/lassie/figures/proc_21.png" width="20%" />
+    <img src="https://chhankyao.github.io/lassie/figures/part_21.gif" width="20%" /> 
+    <img src="https://chhankyao.github.io/lassie/figures/text_21.gif" width="20%" />
+    <img src="https://chhankyao.github.io/lassie/figures/animate_21.gif" width="20%" />
+</p>
 
-(Left to right: input, part reconstruction, texture reconstruction, animation)
+(Left to right: input images, part outputs, textured outputs, animations)
 
 
 
