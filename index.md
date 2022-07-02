@@ -31,6 +31,8 @@ A key driving force behind LASSIE is the enforcing of 2D-3D part consistency usi
 Experiments on Pascal-Part and self-collected in-the-wild animal datasets demonstrate considerably better 3D reconstructions as well as both 2D and 3D part discovery compared to prior arts.
 
 
+## Framework
+
 <center>
 <figure>
     <div id="projectid">
@@ -45,6 +47,7 @@ Experiments on Pascal-Part and self-collected in-the-wild animal datasets demons
 Given sparse images of an articulated class and a generic 3D skeleton, we optimize the shared skeleton and neural parts as well as the instance-specific camera viewpoint and bone transformations. Our method is able to produce high-quality outputs without any pre-defined shape model or instance-specific annotations. The part-based representation also allows applications like animation and texture or pose transfer.
 
 
+## Example outputs
 
 <p float="center">
     <img src="https://chhankyao.github.io/lassie/figures/proc_5.png" width="20%" />
@@ -65,7 +68,7 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
     <img src="https://chhankyao.github.io/lassie/figures/giraffe_animate_22.gif" width="20%" />
 </p>
 
-Sample outputs (left to right: input, part reconstruction, texture reconstruction, animation).
+(Left to right: input, part reconstruction, texture reconstruction, animation)
 
 
 
