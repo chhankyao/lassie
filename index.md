@@ -72,13 +72,11 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 
 
 
-## Paper & Code
+## Paper
 
 - Paper [PDF]
 
 - Supplementary [PDF]
-
-- PyTorch Code [Github]
 
 
 ## Video
