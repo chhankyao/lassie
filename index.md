@@ -76,7 +76,7 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 
 - Paper: [PDF](https://arxiv.org/pdf/2207.03434.pdf)
 
-- Supplementary: [PDF]
+- Supplementary: [PDF](https://github.com/chhankyao/papers/blob/main/arxiv_lassie_supp.pdf)
 
 
 ## Video
