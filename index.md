@@ -75,16 +75,16 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 ## Animations
 
 <p float="center">
-    <img src="https://chhankyao.github.io/lassie/figures/proc_3.png" width="10%" />
-    <img src="https://chhankyao.github.io/lassie/figures/mask_pred_3.png" width="10%" /> 
-    <img src="https://chhankyao.github.io/lassie/figures/video_part_3.gif" width="10%" />
-    <img src="https://chhankyao.github.io/lassie/figures/video_text_3_side.gif" width="10%" />
+    <img src="https://chhankyao.github.io/lassie/figures/proc_3.png" width="20%" />
+    <img src="https://chhankyao.github.io/lassie/figures/mask_pred_3.png" width="20%" /> 
+    <img src="https://chhankyao.github.io/lassie/figures/video_part_3.gif" width="20%" />
+    <img src="https://chhankyao.github.io/lassie/figures/video_text_3_side.gif" width="20%" />
 </p>
 <p float="center">
-    <img src="https://chhankyao.github.io/lassie/figures/proc_5.png" width="10%" />
-    <img src="https://chhankyao.github.io/lassie/figures/mask_pred_5.png" width="10%" /> 
-    <img src="https://chhankyao.github.io/lassie/figures/video_part_5.gif" width="10%" />
-    <img src="https://chhankyao.github.io/lassie/figures/video_text_5_side.gif" width="10%" />
+    <img src="https://chhankyao.github.io/lassie/figures/proc_5.png" width="20%" />
+    <img src="https://chhankyao.github.io/lassie/figures/mask_pred_5.png" width="20%" /> 
+    <img src="https://chhankyao.github.io/lassie/figures/video_part_5.gif" width="20%" />
+    <img src="https://chhankyao.github.io/lassie/figures/video_text_5_side.gif" width="20%" />
 </p>
 
 (Left to right: input images, predicted masks, part animations, textured animations)
