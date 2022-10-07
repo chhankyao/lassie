@@ -1,4 +1,4 @@
-# LASSIE: Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery
+# LASSIE: Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery (NeurIPS 2022)
 
 
 <p style="text-align: center;">
