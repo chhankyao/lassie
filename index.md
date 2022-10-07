@@ -106,3 +106,12 @@ Given sparse images of an articulated class and a generic 3D skeleton, we optimi
 
 
 ## Bibtex
+
+```markdown
+@inproceedings{yao2022lassie,
+  title={LASSIE: Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery},
+  author={Yao, Chun-Han and Hung, Wei-Chih and Rubinstein, Michael and Lee, Yuanzhen and Jampani, Varun and Yang, Ming-Hsuan},
+  booktitle={Conference on Neural Information Processing Systems},
+  year={2022}
+}
+```
