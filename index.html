@@ -1,0 +1,286 @@
+<!-- saved from url=(0047)https://www.cs.cmu.edu/~peiyunh/tiny/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="StyleSheet" href="./files/style.css" type="text/css" media="all">
+
+    <title>LASSIE: Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery</title>
+
+    <style type="text/css">
+      body {
+	    font-family : Times;
+	    background-color : #f2f2f2;
+	    font-size : 15px;
+      }
+
+      .content {
+	    width : 800px;
+	    padding : 25px 25px;
+	    margin : 25px auto;
+	    background-color : #fff;
+	    border-radius: 20px;
+      }
+      .description {
+        font-family: "Times";
+        white-space: pre;
+        text-align: left;
+      }
+
+      .content-title {
+	    background-color : inherit;
+      margin-top: 5px;
+      padding-top: 5px;
+	    margin-bottom : 0;
+	    padding-bottom : 0;
+      }
+
+      a, a:visited {
+	    text-decoration: none;
+	    color : blue;
+      }
+
+      .anchor {
+      color: inherit;
+      }
+      #authors {
+	    text-align : center;
+      }
+
+      #conference {
+	    text-align : center;
+	    font-style : italic;
+      }
+
+      #authors a {
+	    margin : 0 10px;
+      }
+
+      h1 {
+	    text-align : center;
+	    font-family : Times;
+	    font-size : 35px;
+      }
+
+      h2 {
+	    font-family : Times;
+	    font-size : 25px;
+	    padding : 0; margin : 10px;
+      }
+
+      h3 {
+	    font-family : Times;
+	    font-size : 20px;
+	    padding : 0; margin : 10px;
+      }
+
+      p {
+	    font-family : Times;
+	    line-height : 130%;
+	    margin : 10px;
+      }
+
+      big {
+	    font-family : Times;
+	    font-size : 20px;
+      }
+
+      li {
+	    margin : 10px 0;
+      }
+
+      .samples {
+	    float : left;
+	    width : 50%;
+	    text-align : center;
+      }
+
+      .cond {
+	    float : left;
+	    margin : 0 40px;
+      }
+
+      .cond-container {
+	    width : 700px;
+	    margin : 0 auto;
+	    text-align : center;
+      }
+      #vidalign {
+         display: block;
+         margin: 0px;
+         padding: 0px;
+         position: relative;
+         top: 90px;
+         height: auto;
+         max-width: auto;
+         overflow-y: hidden;
+         overflow-x:auto;
+         word-wrap:normal;
+         white-space:nowrap;
+      }
+
+    </style>
+  </head>
+
+
+
+  <body>
+
+    <div class="content content-title" style="text-align: center;">
+      <h1>LASSIE: Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery</h1>
+
+      <big style="color:grey;">NeurIPS 2022</big>
+
+      <p id="authors">
+        <table align="center" style="width:100%; text-align:center; table-layout: fixed">
+          <tr>
+          <th><a href="https://deqings.github.io/">Chun-Han Yao<sup>1</sup></a></th>
+          <th><a href="https://hfslyc.github.io">Wei-Chih Hung<sup>2</sup></a></th>
+          <th><a href="http://people.csail.mit.edu/yzli/">Yuanzhen Li<sup>3</sup></a></th>
+          <th><a href="http://people.csail.mit.edu/mrub/">Michael Rubinstein<sup>3</sup></a></th>
+          </tr>
+        </table>
+        <table align="center" style="width:100%; text-align:center; table-layout: fixed">
+          <tr>
+          <th><a href="http://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang<sup>134</sup></a></th>
+          <th><a href="https://varunjampani.github.io/">Varun Jampani<sup>3</sup></a></th>
+          </tr>
+        </table>
+        <table align="center" style="width:100%; text-align:center; table-layout: fixed">
+          <th><sup>1</sup>UC Merced</th>
+          <th><sup>2</sup>Waymo</th>
+          <th><sup>3</sup>Google Research</th>
+          <th><sup>4</sup>Yonsei University</th>
+        </table>
+      </p>
+      </div>
+
+
+
+    <div class="content">
+      <div style="float: right; width:70px; margin-top: 0px; margin-bottom: 25px"></div>
+        <h3>Framework Overview</h3>
+        <div>
+          <img src="./figures/cover.png" width="95%">
+        </div>
+        <p>
+          Given sparse images of an articulated class and a generic 3D skeleton, we optimize the shared skeleton and neural parts as well as the instance-specific camera viewpoint and bone transformations. Our method is able to produce high-quality outputs without any pre-defined shape model or instance-specific annotations.
+        </p>
+    </div>
+
+
+
+    <div class="content">
+      <h2>Abstract</h2>
+      <p>
+        Creating high-quality articulated 3D models of animals is challenging either via manual creation or using 3D scanning tools. Therefore, techniques to reconstruct articulated 3D objects from 2D images are crucial and highly useful. In this work, we propose a practical problem setting to estimate 3D pose and shape of animals given only a few (10-30) in-the-wild images of a particular animal species (say, horse). Contrary to existing works that rely on pre-defined template shapes, we do not assume any form of 2D or 3D ground-truth annotations, nor do we leverage any multi-view or temporal information. Moreover, each input image ensemble can contain animal instances with varying poses, backgrounds, illuminations, and textures. Our key insight is that 3D parts have much simpler shape compared to the overall animal and that they are robust w.r.t. animal pose articulations. Following these insights, we propose LASSIE, a novel optimization framework which discovers 3D parts in a self-supervised manner with minimal user intervention. A key driving force behind LASSIE is the enforcing of 2D-3D part consistency using self-supervisory deep features. Experiments on Pascal-Part and self-collected in-the-wild animal datasets demonstrate considerably better 3D reconstructions as well as both 2D and 3D part discovery compared to prior arts.
+      </p>
+      <div id="teaser" style="margin: 12px; text-align: left;border-top: 1px solid lightgray;padding-top: 12px;">
+	    <a href="https://arxiv.org/pdf/2207.03434.pdf">
+	        <strong>[Paper]</strong>
+	    </a>
+      <a href="https://github.com/chhankyao/papers/blob/main/arxiv_lassie_supp.pdf">
+	        <strong>[Supp]</strong>
+	    </a>
+      <a>
+	        <strong>[Code (soon)]</strong>
+	    </a>
+      </div>
+    </div>
+
+
+
+    <div class="content">
+      <div style="float: right; width:70px; margin-top: 0px; margin-bottom: 25px"></div>
+      <h2>Results on in-the-wild images</h2>
+        <div float="center">
+          <img src="./figures/proc_5.png" width="20%">
+          <img src="./figures/part_5.gif" width="20%">
+          <img src="./figures/text_5.gif" width="20%">
+          <img src="./figures/animate_5.gif" width="20%">
+        </div>
+        <div float="center">
+          <img src="./figures/proc_22.png" width="20%">
+          <img src="./figures/giraffe_part_22.gif" width="20%">
+          <img src="./figures/giraffe_text_22.gif" width="20%">
+          <img src="./figures/giraffe_animate_22.gif" width="20%">
+        </div>
+        <div float="center">
+          <img src="./figures/proc_21.png" width="20%">
+          <img src="./figures/part_21.gif" width="20%">
+          <img src="./figures/text_21.gif" width="20%">
+          <img src="./figures/animate_21.gif" width="20%">
+        </div>
+        <p>
+          (Left to right: input images, part outputs, textured outputs, animations)
+        </p>
+    </div>
+
+
+
+    <div class="content">
+      <div style="float: right; width:70px; margin-top: 0px; margin-bottom: 25px"></div>
+      <h2>Animation</h2>
+        <div float="center">
+          <img src="./figures/proc_3.png" width="20%">
+          <img src="./figures/mask_pred_3.png" width="20%">
+          <img src="./figures/video_part_3.gif" width="20%">
+          <img src="./figures/video_text_3_side.gif" width="20%">
+        </div>
+        <div float="center">
+          <img src="./figures/proc_5.png" width="20%">
+          <img src="./figures/mask_pred_5.png" width="20%">
+          <img src="./figures/video_part_5.gif" width="20%">
+          <img src="./figures/video_text_5_side.gif" width="20%">
+        </div>
+        <p>
+          (Left to right: input images, predicted masks, part animations, textured animations)
+        </p>
+    </div>
+
+
+
+    <div class="content">
+      <div style="float: right; width:70px; margin-top: 0px; margin-bottom: 25px"></div>
+      <h2>Video</h2>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/MhQaHzC4Sn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+
+
+    <div class="content">
+      <h2>Bibtex</h2>
+        <p class="description">@inproceedings{yao2022lassie,
+title={LASSIE: Learning Articulated Shape from Sparse Image Ensemble via 3D Part Discovery},
+author={Yao, Chun-Han
+        and Hung, Wei-Chih
+        and Li, Yuanzhen
+        and Rubinstein, Michael
+        and Yang, Ming-Hsuan
+        and Jampani, Varun},
+booktitle={NeurIPS},
+year={2022}
+}
+        </p>
+    </div>
+
+
+
+    <div class="content">
+      <h2>Related work</h2>
+        <p>
+          <a href="https://jasonyzhang.com/ners/">NeRS: Neural Reflectance Surfaces for Sparse-View 3D Reconstruction in the Wild. NeurIPS 2021.</a><br>
+          <a href="https://sites.google.com/nvidia.com/unsup-mesh-2020/">Self-supervised Single-view 3D Reconstruction via Semantic Consistency. ECCV 2020.</a> <br>
+          <a href="https://nileshkulkarni.github.io/acsm/">Articulation Aware Canonical Surface Mapping. CVPR 2020.</a><br>
+          <a href="https://github.com/silviazuffi/smalst">Three-D Safari: Learning to Estimate Zebra Pose, Shape, and Texture from Images "In the Wild". ICCV 2019.</a><br>
+        </p>
+    </div>
+
+
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr><td>
+    <p align="right"><font size="2">
+      <a href="https://www.cs.cmu.edu/~peiyunh/">Webpage design borrowed from Peiyun Hu</a> </font>
+    </p>
+  </td></tr>
+</table>
+
+</body></html>
